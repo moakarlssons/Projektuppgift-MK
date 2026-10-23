@@ -94,4 +94,9 @@ header {
 /*Footer*/
 footer {
     background-color: #D0D8C8;
+    padding: 10px;
+}
+
+footer h3 {
+    text-decoration: underline;
 }
