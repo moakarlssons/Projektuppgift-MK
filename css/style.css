@@ -50,11 +50,13 @@ p {
 
 .hero img {
     width: 100%;
+    padding: 10px;
 }
 
 .info {
     text-align: left;
 }
+
 
 footer {
     background-color: #D0D8C8;
