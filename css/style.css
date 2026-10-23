@@ -120,3 +120,20 @@ footer {
 footer h3 {
     text-decoration: underline;
 }
+
+
+/*Css för sidan Kurser och anmälan*/
+
+.course1 h1 {
+    text-align: center;
+    color: #DB9558
+}
+
+.reg {
+    background-color: #D0D8C8;
+    padding: 10px;
+}
+
+.reg button {
+    background-color: #F8F6EF;
+}
