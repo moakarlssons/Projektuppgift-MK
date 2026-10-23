@@ -82,8 +82,16 @@ header {
 
 /*Kontakt sektionen*/
 
-.contact {}
+.contact {
+    text-align: center;
+}
 
+/*Valpskola*/
+.puppy {
+    text-align: left;
+}
+
+/*Footer*/
 footer {
     background-color: #D0D8C8;
 }
