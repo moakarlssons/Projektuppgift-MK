@@ -48,6 +48,10 @@ p {
     line-height: 1.5;
 }
 
+.hero img {
+    width: 100%;
+}
+
 footer {
     background-color: #D0D8C8;
 }
