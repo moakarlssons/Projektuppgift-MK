@@ -18,6 +18,14 @@ p {
     line-height: 1.5;
 }
 
+/*Alla knappar*/
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /* HEADER */
 
 .logo img {
@@ -80,15 +88,27 @@ header {
     gap: 20px;
 }
 
+.course button {
+    background-color: #F8F6EF;
+}
+
 /*Kontakt sektionen*/
 
 .contact {
     text-align: center;
 }
 
+.contact button {
+    background-color: #D0D8C8;
+}
+
 /*Valpskola*/
 .puppy {
     text-align: left;
+}
+
+.puppy button {
+    background-color: #D0D8C8;
 }
 
 /*Footer*/
