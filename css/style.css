@@ -1,12 +1,21 @@
+/*Hela body*/
+
 body {
     background-color: #f8f6ef;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/*Alla bilder*/
+
 img {
     width: 300px;
     height: auto;
     border-radius: 15px;
+}
+
+/* alla p element */
+p {
+    line-height: 1.5;
 }
 
 /* HEADER */
@@ -44,11 +53,6 @@ header {
     text-decoration: none;
 }
 
-/* alla p element */
-p {
-    line-height: 1.5;
-}
-
 .hero img {
     width: 100%;
     padding: 10px;
@@ -75,6 +79,10 @@ p {
     flex-direction: column;
     gap: 20px;
 }
+
+/*Kontakt sektionen*/
+
+.contact {}
 
 footer {
     background-color: #D0D8C8;
