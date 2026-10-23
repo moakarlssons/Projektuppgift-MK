@@ -3,7 +3,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-
+img {
+    width: 300px;
+    height: auto;
+}
 
 /* HEADER */
 
@@ -43,4 +46,8 @@ header {
 /* alla p element */
 p {
     line-height: 1.5;
+}
+
+footer {
+    background-color: #D0D8C8;
 }
