@@ -57,7 +57,23 @@ p {
     text-align: left;
 }
 
+/*Vilken kurs passar besökaren bäst*/
 
+.course h2 {
+    text-align: center;
+}
+
+.course {
+    background-color: #D0D8C8;
+    text-align: center;
+    padding: 20px;
+}
+
+.course>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 footer {
     background-color: #D0D8C8;
