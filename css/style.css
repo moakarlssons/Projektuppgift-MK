@@ -1,3 +1,12 @@
 body {
     background-color: #f8f6ef;
 }
+
+/* HEADER */
+header {
+    background-color: #D0D8C8;
+}
+
+p {
+    line-height: 1.5;
+}
