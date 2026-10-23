@@ -52,6 +52,10 @@ p {
     width: 100%;
 }
 
+.info {
+    text-align: left;
+}
+
 footer {
     background-color: #D0D8C8;
 }
