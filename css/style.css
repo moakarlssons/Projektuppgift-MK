@@ -3,11 +3,44 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
+
 /* HEADER */
-header {
-    background-color: #D0D8C8;
+
+.logo img {
+    width: 200px;
+    padding: 10px;
 }
 
+header {
+    background-color: #D0D8C8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    padding: 10px 20px;
+}
+
+.header-nav a {
+    color: #040404;
+    text-decoration: none;
+}
+
+/* alla p element */
 p {
     line-height: 1.5;
 }
