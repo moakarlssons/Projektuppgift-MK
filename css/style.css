@@ -28,10 +28,10 @@ footer {
     padding: 0 20px;
 }
 
-form {
-    border-radius: 20px;
-    padding: 10px;
-    margin-bottom: 15px;
+form input {
+    border: 0;
+    border-radius: 10px;
+    padding: 8px 16px;
 }
 
 /*Alla ul*/
@@ -151,9 +151,31 @@ footer h3 {
 
 .course1 h1 {
     text-align: center;
-    color: #DB9558
+    color: #DB9558;
+    margin-bottom: -20px;
 }
 
+.course1 {
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.course1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.report {
+    margin: 20px;
+    ;
+}
+
+.report h2 {
+    margin: 10px;
+}
 
 .reg {
     background-color: #D0D8C8;
