@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*Hela body*/
@@ -48,6 +49,13 @@ header {
     background-color: #D0D8C8;
 }
 
+
+
+
+/*Start sida*/
+
+/* Info sektionen*/
+
 .hero img {
     width: 100%;
     padding: 10px;
@@ -56,11 +64,6 @@ header {
 .info {
     text-align: left;
 }
-
-/*Start sida*/
-
-/* Info sektionen*/
-
 
 
 /*Vilken kurs passar besökaren bäst*/
