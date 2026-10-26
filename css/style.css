@@ -168,21 +168,54 @@ footer h3 {
     gap: 20px;
 }
 
+/* Informaion om anmälan */
 .report {
     margin: 20px;
-    ;
 }
 
 .report h2 {
     margin: 10px;
 }
 
+/* Anmälnings formuläret */
 .reg {
     background-color: #D0D8C8;
+    padding: 20px;
+}
+
+.reg form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.reg label {
+    display: block;
+    margin-top: 8px;
+    ;
+}
+
+.reg input,
+.reg select {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.reg input {
+    background-color: #F8F6EF;
+}
+
+#select {
+    background-color: #F8F6EF;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px 16px;
 }
 
 .reg button {
     background-color: #F8F6EF;
+    margin-top: 20px;
+    margin: 0 auto;
 }
 
 
