@@ -5,6 +5,13 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
+form {
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
 /*Alla bilder*/
 
 img {
