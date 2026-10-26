@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /*Hela body*/
 
 body {
@@ -15,8 +20,7 @@ form {
 /*Alla bilder*/
 
 img {
-    width: 300px;
-    height: auto;
+    width: 100%;
     border-radius: 15px;
 }
 
