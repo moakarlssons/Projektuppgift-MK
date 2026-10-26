@@ -11,6 +11,8 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/*Samlad padding*/
+
 header,
 .hero,
 .info,
@@ -52,11 +54,16 @@ p {
 }
 
 /*Alla knappar*/
+
 button {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(.95);
 }
 
 /* HEADER */
