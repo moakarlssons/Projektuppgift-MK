@@ -68,17 +68,13 @@ header {
 
 /*Vilken kurs passar besökaren bäst*/
 
-.course h2 {
-    text-align: center;
-}
-
 .course {
     background-color: #D0D8C8;
     text-align: center;
     padding: 20px;
 }
 
-.course>div {
+.course div {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -86,6 +82,7 @@ header {
 
 .course button {
     background-color: #F8F6EF;
+    margin: 0 auto;
 }
 
 /*Kontakt sektionen*/
