@@ -32,6 +32,13 @@ form {
     margin-bottom: 15px;
 }
 
+/*Alla ul*/
+
+ul {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
 /*Alla bilder*/
 
 img {
@@ -132,9 +139,6 @@ footer h3 {
     color: #DB9558
 }
 
-.report ul {
-    margin-left: 20px;
-}
 
 .reg {
     background-color: #D0D8C8;
