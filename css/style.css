@@ -87,6 +87,7 @@ header {
 
 .hero img {
     width: 100%;
+    margin-block: 20px;
 }
 
 .info {
@@ -124,6 +125,12 @@ header {
 
 .contact {
     text-align: center;
+    padding: 30px;
+}
+
+.contact h3,
+.contact p {
+    padding-block: 10px;
 }
 
 .contact button {
@@ -133,6 +140,12 @@ header {
 /*Valpskola*/
 .puppy {
     text-align: left;
+    margin-bottom: 20px;
+}
+
+.puppy h2,
+.puppy p {
+    padding-block: 10px;
 }
 
 .puppy button {
@@ -142,10 +155,12 @@ header {
 /*Footer*/
 footer {
     background-color: #D0D8C8;
+    padding: 20px;
 }
 
 footer h3 {
     text-decoration: underline;
+    padding-block: 10px;
 }
 
 
