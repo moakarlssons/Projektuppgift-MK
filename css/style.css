@@ -17,6 +17,11 @@ header,
 .course,
 .contact,
 .puppy,
+.course1,
+.report,
+.reg,
+.contact-page,
+.puppy-page,
 footer {
     padding: 0 20px;
 }
@@ -127,9 +132,12 @@ footer h3 {
     color: #DB9558
 }
 
+.report ul {
+    margin-left: 20px;
+}
+
 .reg {
     background-color: #D0D8C8;
-    padding: 10px;
 }
 
 .reg button {
