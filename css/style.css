@@ -11,6 +11,15 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+header,
+.hero,
+.info,
+.course,
+.contact,
+.puppy,
+footer {
+    padding: 0 20px;
+}
 
 form {
     border-radius: 20px;
@@ -42,7 +51,6 @@ button {
 
 .logo img {
     width: 200px;
-    padding: 10px;
 }
 
 header {
@@ -58,7 +66,6 @@ header {
 
 .hero img {
     width: 100%;
-    padding: 10px;
 }
 
 .info {
@@ -71,7 +78,6 @@ header {
 .course {
     background-color: #D0D8C8;
     text-align: center;
-    padding: 20px;
 }
 
 .course div {
@@ -107,7 +113,6 @@ header {
 /*Footer*/
 footer {
     background-color: #D0D8C8;
-    padding: 10px;
 }
 
 footer h3 {
