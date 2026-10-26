@@ -90,6 +90,14 @@ header {
 .course {
     background-color: #D0D8C8;
     text-align: center;
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.course h2 {
+    margin-bottom: -20px;
 }
 
 .course div {
