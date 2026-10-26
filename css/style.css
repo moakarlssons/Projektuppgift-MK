@@ -25,6 +25,7 @@ header,
 .contact-page,
 .other-contact,
 .puppy-page,
+.sign,
 footer {
     padding: 0 20px;
 }
@@ -226,7 +227,6 @@ footer h3 {
     padding-block: 20px;
 }
 
-
 .contact-page input,
 .contact-page textarea {
     background-color: #D0D8C8;
@@ -258,3 +258,52 @@ footer h3 {
 
 
 /*Css för sidan Lilla valpskolan*/
+
+.puppy-page {
+    padding-block: 20px;
+}
+
+.puppy-page h1 {
+    text-align: center;
+    color: #DB9558;
+}
+
+.puppy-page h2 {
+    padding-block: 20px;
+}
+
+.puppy-page ul {
+    padding: 20px;
+}
+
+/*Bilden*/
+.puppy-page img {
+    margin-top: 20px;
+}
+
+
+/*Signa upp för nyhetsbrev*/
+.sign {
+    background-color: #D0D8C8;
+    padding-block: 20px;
+}
+
+.sign input {
+    background-color: #F8F6EF;
+    display: block;
+}
+
+.sign label {
+    display: block;
+    margin-top: 8px;
+}
+
+.sign h3 {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.sign button {
+    background-color: #F8F6EF;
+    margin-top: 20px;
+}
