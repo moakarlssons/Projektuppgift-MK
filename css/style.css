@@ -23,6 +23,7 @@ header,
 .report,
 .reg,
 .contact-page,
+.other-contact,
 .puppy-page,
 footer {
     padding: 0 20px;
@@ -192,7 +193,7 @@ footer h3 {
 .reg label {
     display: block;
     margin-top: 8px;
-    ;
+
 }
 
 .reg input,
@@ -220,5 +221,40 @@ footer h3 {
 
 
 /*Css för sidan kontakt*/
+
+.contact-page {
+    padding-block: 20px;
+}
+
+
+.contact-page input,
+.contact-page textarea {
+    background-color: #D0D8C8;
+    display: block;
+}
+
+.contact-page label {
+    display: block;
+}
+
+
+#message {
+    background-color: #D0D8C8;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.contact-page button {
+    background-color: #D0D8C8;
+    margin-top: 20px;
+}
+
+.other-contact {
+    padding-block: 20px;
+    background-color: #D0D8C8;
+}
+
+
 
 /*Css för sidan Lilla valpskolan*/
