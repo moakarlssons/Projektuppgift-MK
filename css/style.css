@@ -364,3 +364,21 @@ footer h3 {
     color: white;
     text-decoration: none;
 }
+
+/*Stora skärmar*/
+@media (min-width: 768px) {
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .header-nav {
+        display: block;
+        width: auto;
+    }
+
+    .header-nav ul {
+        display: flex;
+        gap 20px;
+    }
+}
