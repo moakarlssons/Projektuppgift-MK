@@ -336,3 +336,31 @@ footer h3 {
     display: block;
     margin-bottom: 10px;
 }
+
+/*Hamburgemenyn*/
+
+.header-nav {
+    display: none;
+    width: 100%;
+}
+
+/*Visar menyn när klassen open lägg till*/
+
+.header-nav.open {
+    display: block;
+}
+
+.menu-toggle {
+    cursor: pointer;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+}
