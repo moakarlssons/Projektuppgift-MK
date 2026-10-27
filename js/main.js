@@ -10,18 +10,48 @@ if (headerNavBtn && headerNav) {
     });
 }
 
-// Validera formuläret från kurs sidan
 
-const name = document.getElementById("name").value.trim();
-const number = document.getElementById("number").value.trim();
-const email = document.getElementById("email").value.trim();
-const dogname = document.getElementById("dogname").value.trim();
-const breed = document.getElementById("breed").value.trim();
-const date = document.getElementById("date").value;
 
-// Kontrollera om alla textfält är ifyllda
+const regForm = document.getElementById("regForm");
 
-if (!name || !number || !email || !dogname || !breed || !date) {
+if (regForm) {
+    regForm.addEventListener("submit", function (event) {
+        event.preventDefault();
 
-    return;
+        // Hämtar värden på alla input fält
+        const name = document.getElementById("name").value.trim();
+        const number = document.getElementById("number").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const dogname = document.getElementById("dogname").value.trim();
+        const breed = document.getElementById("breed").value.trim();
+        const date = document.getElementById("date").value;
+        const select = document.getElementById("select").value;
+
+        //Rensa tidigare felmeddelanden
+        document.querySelectorAll(".error").forEach(error => {
+            error.textContent = "";
+        });
+
+        let valid = true;
+
+        // Kontrollera om alla textfält är ifyllda
+        if (!name) showError("nameError", "Ange ditt namn");
+        if (!number) showError("numberError", "Ange ditt telefonnummer.");
+        if (!email) showError("emailError", "Ange din e-postadress.");
+        if (!dogname) showError("dognameError", "Ange hundens namn.");
+        if (!breed) showError("breedError", "Ange hundens ras");
+        if (!date) showError("dateError", "Ange hundens födelsedatum");
+        if (!select) showError("selectError", "Vänligen välj en kurs");
+
+        // Skriver ut error vid fel
+        function showError(field, message) {
+            document.getElementById(field).textContent = message;
+            valid = false;
+        }
+        // Nollställer formulälet om det inte finns några fel 
+        if (valid) {
+            regForm.reset();
+        }
+    });
 }
+
