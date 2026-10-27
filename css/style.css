@@ -346,8 +346,13 @@ footer h3 {
 
 /*Visar menyn när klassen open lägg till*/
 
-.header-nav.open {
-    display: block;
+.header-nav {
+    display: none;
+}
+
+.header-nav .open {
+    display: flex;
+    flex-direction: column;
 }
 
 .menu-toggle {
