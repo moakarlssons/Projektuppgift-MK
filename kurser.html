@@ -93,17 +93,27 @@
             <form id="regForm">
                 <label for="name">Ägarens namn:</label>
                 <input type="text" id="name" name="name">
+                <span class="error" id="nameError"></span>
+
                 <label for="number">Telefonnr:</label>
                 <input type="tel" id="number" name="number">
+                <span class="error" id="numberError"></span>
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
+                <span class="error" id="emailError"></span>
 
                 <label for="dogname">Hundens namn:</label>
                 <input type="text" id="dogname" name="dogname">
+                <span class="error" id="dognameError"></span>
+
                 <label for="breed">Hundens ras:</label>
                 <input type="text" id="breed" name="breed">
+                <span class="error" id="breedError"></span>
+
                 <label for="date">Hundens födelsedatum:</label>
                 <input type="date" id="date" name="date">
+                <span class="error" id="dateError"></span>
 
                 <label for="select">Vilken kurs ni vill anmäla er på:</label>
                 <select name="select" id="select">
