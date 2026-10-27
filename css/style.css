@@ -328,3 +328,11 @@ footer h3 {
     background-color: #F8F6EF;
     margin-top: 20px;
 }
+
+/*Error meddelanden*/
+.error {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
