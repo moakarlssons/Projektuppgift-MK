@@ -35,4 +35,11 @@ form.addEventListener("submit", function (event) {
     });
 
 
-// Hamburgemeny
+    // Hamburgemenyn
+
+    const headerNavBtn = document.querySelector(".menu-toggle");
+    const headerNav = document.querySelector(".header-nav")
+
+    headerNavBtn.addEventListener("click", function () {
+        headerNav.classList.toggle("open")
+    });
