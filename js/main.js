@@ -15,23 +15,21 @@ form.addEventListener("submit", function (event) {
         { id: "breed", erroeId: "breedError", message: "Fyll i hundens ras." },
         { id: "date", erroeId: "dateError", message: "Fyll i hundens födelsedatum." },
         { id: "select", erroeId: "selectError", message: "Välj en kurs." }
-    ]
-});
+    ];
 
-let isValid = true;
+    let isValid = true;
 
-// Tar bort gamla felmeddelanden
-fields.forEach(function (field)
-document.getElementById(field.erroeId).textContent = "";
-{
-});
+    // Tar bort gamla felmeddelanden
+    fields.forEach(function (field) {
+        document.getElementById(field.errorId).textContent = "";
+    });
 
-//Kontrollera varje fält
-fields.forEach(function (field) {
-    const input = document.getElementById(field.id);
+    //Kontrollera varje fält
+    fields.forEach(function (field) {
+        const input = document.getElementById(field.id);
 
-    if (input.value.trim() === "") {
-        document.getElementById(field.erroeId).textContent = field.message;
-        isValid = false;
-    }
-});
+        if (input.value.trim() === "") {
+            document.getElementById(field.errorId).textContent = field.message;
+            isValid = false;
+        }
+    });
