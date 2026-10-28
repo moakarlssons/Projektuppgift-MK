@@ -99,6 +99,10 @@ header {
     text-align: left;
 }
 
+.info h1 {
+    margin-bottom: 15px;
+}
+
 
 /*Vilken kurs passar besökaren bäst*/
 
@@ -115,7 +119,13 @@ header {
     margin-bottom: -20px;
 }
 
-.course div {
+.course>div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.course article {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -149,8 +159,12 @@ header {
 
 /*Valpskola*/
 .puppy {
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
+}
+
+.puppy>div {
+    text-align: left;
 }
 
 .puppy h2,
@@ -160,6 +174,10 @@ header {
 
 .puppy button {
     background-color: #D0D8C8;
+}
+
+.puppy img {
+    width: 80%;
 }
 
 /*Footer*/
@@ -392,6 +410,12 @@ footer h3 {
 /*Stora skärmar*/
 @media (min-width: 768px) {
 
+    /*Alla p element*/
+    p {
+        font-size: 20px;
+    }
+
+
     /*Hamburge meny*/
     .menu-toggle {
         display: none;
@@ -407,4 +431,36 @@ footer h3 {
         display: flex;
         gap: 30px;
     }
+
+    /* Startsida */
+
+    /* Info sektionen */
+    .info {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .info>div {
+        padding-block: 20px;
+    }
+
+    /*Vilken kurs passar oss bäst?*/
+
+    .course>div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .puppy {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .puppy img {
+        width: 30%;
+    }
+
 }
