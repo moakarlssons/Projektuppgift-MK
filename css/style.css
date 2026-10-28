@@ -213,6 +213,10 @@ footer h3 {
     gap: 20px;
 }
 
+.course1 h2 {
+    margin-top: 10px;
+}
+
 /* Informaion om anmälan */
 .report {
     margin-bottom: 40px;
@@ -487,7 +491,7 @@ footer h3 {
 
     .course-img {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1.5fr;
         gap: 16px;
     }
 
