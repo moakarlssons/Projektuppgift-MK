@@ -213,6 +213,7 @@ footer h3 {
     gap: 20px;
 }
 
+
 /* Informaion om anmälan */
 .report {
     margin-bottom: 40px;
@@ -456,6 +457,12 @@ footer h3 {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
     }
+
+    /*Kontakt sektionen*/
+    .contact {
+        margin-bottom: 30px;
+    }
+
 
     /*Puppy sektionen*/
 
