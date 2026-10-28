@@ -475,4 +475,11 @@ footer h3 {
 
     /*Lilla valpskolan*/
 
+    .puppy-page {
+        display: flex;
+    }
+
+    .puppy-page img {
+        width: 30%;
+    }
 }
