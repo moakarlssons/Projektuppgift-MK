@@ -30,12 +30,15 @@
             <form id="contactForm">
                 <label for="name">Ditt namn:</label>
                 <input type="text" id="name" name="name">
+                <span class="error" id="nameError"></span>
                 <br>
                 <label for="email">Din email:</label>
                 <input type="email" id="email" name="email">
+                <span class="error" id="emailError"></span>
                 <br>
                 <label for="message">Ditt meddelande:</label>
                 <textarea name="message" id="message"></textarea>
+                <span class="error" id="messageError"></span>
                 <button type="submit">Skicka meddelande</button>
             </form>
         </section>
