@@ -481,6 +481,10 @@ footer h3 {
         gap: 40px;
     }
 
+    .course1 h1 {
+        margin: 20px;
+    }
+
     .course-img {
         display: grid;
         grid-template-columns: 1fr 1fr;
