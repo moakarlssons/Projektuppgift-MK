@@ -91,3 +91,37 @@ if (contactForm) {
         }
     });
 }
+
+// Formuläret på sidan lilla valpskolan
+const newsForm = document.getElementById("newsForm");
+
+if (newsForm) {
+    newsForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        // Hämtar värden på alla input fält
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+
+        //Rensa tidigare felmeddelanden
+        document.querySelectorAll(".error").forEach(error => {
+            error.textContent = "";
+        });
+
+        let valid = true;
+
+        // Kontrollera om alla textfält är ifyllda
+        if (!name) showError("nameError", "Ange ditt namn");
+        if (!email) showError("emailError", "Ange din e-postadress.");
+
+        // Skriver ut error vid fel
+        function showError(field, message) {
+            document.getElementById(field).textContent = message;
+            valid = false;
+        }
+        // Nollställer formulälet om det inte finns några fel 
+        if (valid) {
+            newsForm.reset();
+        }
+    });
+}
