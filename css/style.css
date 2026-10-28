@@ -480,6 +480,10 @@ footer h3 {
         font-size: 30px;
     }
 
+    .puppy button {
+        margin-block: 15px;
+    }
+
     /*Kurser och anmälan*/
 
     .course1 {
