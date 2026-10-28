@@ -453,6 +453,8 @@ footer h3 {
         gap: 20px;
     }
 
+    /*Lilla valpskolan*/
+
     .puppy {
         display: flex;
         align-items: flex-start;
@@ -461,6 +463,10 @@ footer h3 {
 
     .puppy img {
         width: 30%;
+    }
+
+    .puppy h2 {
+        font-size: 30px;
     }
 
 }
