@@ -248,7 +248,14 @@ footer h3 {
 
 /*Css för sidan kontakt*/
 
-.contact-page .contact-page {
+.contact-page h1 {
+    text-align: left;
+    color: #DB9558;
+    margin-bottom: 20px;
+
+}
+
+.contact-page {
     padding-block: 20px;
 }
 
