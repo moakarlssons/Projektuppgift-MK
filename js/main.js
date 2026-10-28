@@ -125,3 +125,20 @@ if (newsForm) {
         }
     });
 }
+
+
+//Ändra texten på knappen Läs mer på startsidan
+
+const course = document.querySelectorAll(".course details");
+
+course.forEach(function (course) {
+    const summary = course.querySelector("summary");
+
+    course.addEventListener("toggle", function () {
+        if (course.open) {
+            summary.textContent = "Läs mindre";
+        } else {
+            summary.textContent = "Läs mer här";
+        }
+    });
+});
