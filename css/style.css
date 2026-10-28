@@ -484,7 +484,9 @@ footer h3 {
     }
 
     footer {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 50px;
     }
 
     /*Kurser och anmälan sidan*/
