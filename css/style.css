@@ -453,7 +453,7 @@ footer h3 {
         gap: 20px;
     }
 
-    /*Lilla valpskolan*/
+    /*Puppy sektionen*/
 
     .puppy {
         display: flex;
@@ -468,5 +468,11 @@ footer h3 {
     .puppy h2 {
         font-size: 30px;
     }
+
+    /*Kurser och anmälan*/
+
+    /*Kontakt*/
+
+    /*Lilla valpskolan*/
 
 }
