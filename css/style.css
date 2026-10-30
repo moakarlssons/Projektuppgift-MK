@@ -548,10 +548,20 @@ footer h3 {
 
     .puppy-page {
         display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .puppy-page>div {
+        width: 600px;
+        flex-grow: 1;
     }
 
     .puppy-page img {
-        width: 30%;
+        min-width: 300px;
+        max-width: 600px;
+        object-fit: contain;
     }
 
     /*Anmäl för nyhetsbrev*/
