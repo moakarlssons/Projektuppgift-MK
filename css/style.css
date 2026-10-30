@@ -229,10 +229,14 @@ footer h3 {
     padding: 20px;
 }
 
-.reg form {
-    display: flex;
-    flex-direction: column;
+#regForm {
+    display: grid;
     gap: 8px;
+}
+
+#regForm input,
+#regForm select {
+    width: 100%;
 }
 
 .reg label {
@@ -261,7 +265,7 @@ footer h3 {
 .reg button {
     background-color: #F8F6EF;
     margin-top: 20px;
-    margin: 0 auto;
+    width: fit-content;
 }
 
 
@@ -434,7 +438,7 @@ footer h3 {
 
     .header-nav ul {
         display: flex;
-        gap: 30px;
+        gap: 20px;
     }
 
     /* Startsida */
@@ -506,6 +510,8 @@ footer h3 {
         grid-template-columns: 1fr 1.5fr;
         gap: 16px;
     }
+
+    /*Anmälningsformuläret*/
 
 
     /*Kontakt sidan*/
