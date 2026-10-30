@@ -142,6 +142,11 @@ header {
     margin-top: 20px;
 }
 
+.regBtn {
+    background-color: #D0D8C8;
+    margin-top: 15px;
+}
+
 /*Kontakt sektionen*/
 
 .contact {
