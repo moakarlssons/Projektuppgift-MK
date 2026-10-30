@@ -107,9 +107,8 @@ header {
 /*Vilken kurs passar besökaren bäst*/
 
 .course {
-    background-color: #D0D8C8;
     text-align: center;
-    padding-block: 20px;
+    padding-block: 40px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -117,6 +116,8 @@ header {
 
 .course h2 {
     margin-bottom: -20px;
+    color: #DB9558;
+    font-size: 30px;
 }
 
 .course>div {
@@ -132,7 +133,7 @@ header {
 }
 
 .course summary {
-    background-color: #F8F6EF;
+    background-color: #D0D8C8;
     margin: 0 auto;
     display: inline;
 }
@@ -146,6 +147,7 @@ header {
 .contact {
     text-align: center;
     padding: 30px;
+    background-color: #D0D8C8;
 }
 
 .contact h3,
@@ -154,7 +156,7 @@ header {
 }
 
 .contact button {
-    background-color: #D0D8C8;
+    background-color: #F8F6EF
 }
 
 /*Valpskola*/
