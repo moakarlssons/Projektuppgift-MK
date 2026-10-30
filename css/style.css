@@ -512,7 +512,13 @@ footer h3 {
     }
 
     /*Anmälningsformuläret*/
+    #regForm {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
+    .reg button {
+        grid-row-start: 4;
+    }
 
     /*Kontakt sidan*/
 
