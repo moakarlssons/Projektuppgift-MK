@@ -285,13 +285,13 @@ footer h3 {
 .contact-page input,
 .contact-page textarea {
     background-color: #D0D8C8;
-    display: block;
 }
 
-.contact-page label {
-    display: block;
-}
 
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+}
 
 #message {
     background-color: #D0D8C8;
@@ -521,6 +521,23 @@ footer h3 {
     }
 
     /*Kontakt sidan*/
+
+    #contactForm {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin-right: 30%;
+    }
+
+    #contactForm button {
+        grid-row-start: 3;
+        margin: 0;
+        width: fit-content;
+    }
+
+    #contactForm div:has(#message) {
+        grid-column: span 2;
+    }
 
     /*Lilla valpskolan sidan*/
 
