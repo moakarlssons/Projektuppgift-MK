@@ -144,7 +144,14 @@ header {
 
 .regBtn {
     background-color: #D0D8C8;
+    color: black;
+    display: inline-block;
     margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /*Kontakt sektionen*/
@@ -273,6 +280,7 @@ footer h3 {
     background-color: #F8F6EF;
     margin-top: 20px;
     width: fit-content;
+
 }
 
 
