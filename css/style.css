@@ -1,3 +1,4 @@
+/*Hela dokumentet*/
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +31,7 @@ footer {
     padding: 0 20px;
 }
 
+/*Input fält i formulär*/
 form input {
     border: 0;
     border-radius: 10px;
@@ -65,10 +67,6 @@ summary {
     cursor: pointer;
 }
 
-button:hover {
-    filter: brightness(.95);
-}
-
 /* HEADER */
 
 .logo img {
@@ -85,8 +83,7 @@ header {
 
 
 
-
-/*Start sida*/
+/*STARTSIDA*/
 
 /* Info sektionen*/
 
@@ -215,7 +212,7 @@ footer h3 {
 }
 
 
-/*Css för sidan Kurser och anmälan*/
+/*CSS FÖR SIDAN KURSER & ANMÄLAN*/
 
 .course1 h1 {
     text-align: center;
@@ -293,7 +290,7 @@ footer h3 {
 }
 
 
-/*Css för sidan kontakt*/
+/*CSS FÖR SIDAN KONTAKT*/
 
 .contact-page h1 {
     text-align: left;
@@ -336,7 +333,7 @@ footer h3 {
 
 
 
-/*Css för sidan Lilla valpskolan*/
+/*CSS FÖR SIDAN LILLA VALPSKOLAN*/
 
 .puppy-page {
     padding-block: 20px;
@@ -441,7 +438,7 @@ footer h3 {
     text-decoration: none;
 }
 
-/*Stora skärmar*/
+/*STORA SKÄRMAR*/
 @media (min-width: 768px) {
 
     /*Alla p element*/
@@ -470,7 +467,7 @@ footer h3 {
         gap: 20px;
     }
 
-    /* Startsida */
+    /* STARTSIDA */
 
     /* Info sektionen */
     .info {
@@ -522,7 +519,7 @@ footer h3 {
         gap: 50px;
     }
 
-    /*Kurser och anmälan sidan*/
+    /*KURSER & ANMÄLAN SIDAN*/
 
     .course1 {
         display: flex;
@@ -568,7 +565,7 @@ footer h3 {
         grid-column: span 2;
     }
 
-    /*Lilla valpskolan sidan*/
+    /*LILLA VALPSKOLAN SIDAN*/
 
     .puppy-page {
         display: flex;
