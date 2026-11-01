@@ -154,6 +154,7 @@ header {
     text-decoration: none;
 }
 
+
 /*Kontakt sektionen*/
 
 .contact {
@@ -167,8 +168,16 @@ header {
     padding-block: 10px;
 }
 
-.contact button {
-    background-color: #F8F6EF
+.btn {
+    background-color: #F8F6EF;
+    color: black;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /*Valpskola*/
